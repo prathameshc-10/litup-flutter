@@ -1,92 +1,96 @@
-# litup
+# 🌟 LitUp
 
-A new Flutter project.
+LitUp is a modern **Flutter-based social event and party app** built to connect people through fun and creative gatherings.  
+It provides a smooth, visually rich experience with Firebase integration, smart UI animations, and advanced features like QR scanning, AI chat, and media sharing.
 
-# 5-10-2025 (Prathamesh):- UI
-SplashScreen UI
-Dashboard UI
-All parties UI
-Join Party flow UI
-Bottom Navigation UI
+---
 
-# 6-10-2025 (Utkarsh):- UI
-3 Create Party UI Screens
+## 🚀 Features
 
-# 6-10-2025 (Prathamesh):- UI
-Changes in create party UI
-PartyBot UI
-PartyDetails UI
+- 🔐 **Firebase Authentication** — Email, Password & Google Sign-In  
+- 💬 **Real-Time Cloud Firestore** — Store and sync user & event data  
+- ☁️ **Firebase Storage** — Upload and manage images  
+- 🧠 **AI Integration** — Powered by `google_generative_ai`  
+- 🎨 **Animated UI & Clean Design** — Using `animate_do`, `lottie`, and `sizer`  
+- 🪄 **Wheel of Fortune & Interactive UI** — via `flutter_fortune_wheel`  
+- 📸 **QR Code Generation & Scanning** — `qr_flutter` + `mobile_scanner`  
+- 💾 **Local Storage** — Using `sqflite` and `shared_preferences`  
+- 🔊 **Audio Effects** — via `audioplayers`  
+- 🔗 **Content Sharing** — with `share_plus`  
+- 📱 **Responsive UI** — Adaptive design for all screen sizes
 
-# 7-10-2025 (Archit):- UI
-Added Login and Onboarding Screens
+---
 
-# 7-10-2025 (Utkarsh):- UI
-Added Profile Screen
+## 🧱 Tech Stack
 
-# 10-10-2025 (Prathamesh):- UI
-changes in dashboard layout
-animations in bottom navigation bar 
+| Category | Tools & Packages |
+|-----------|------------------|
+| **Framework** | Flutter |
+| **Language** | Dart |
+| **UI & Design** | Google Fonts, Sizer, Animate_do, Lottie, Font Awesome |
+| **Navigation & Animations** | Curved Navigation Bar, Animations Package |
+| **Backend** | Firebase Core, Auth, Firestore, Storage |
+| **AI / ML** | Google Generative AI (Gemini API) |
+| **Local Storage** | Sqflite, Shared Preferences |
+| **Media** | Image Picker, Audioplayers, QR Flutter, Mobile Scanner |
+| **Network** | HTTP, REST APIs |
+| **Utilities** | Path Provider, Intl, Smooth Page Indicator |
 
-# 11-10-2025 (Prathamesh):- 
-Poll and Games Screen UI
-All parties Screen changes
-Made all parties and party details section dynamic
-Multi Party Screen 
-Community group chat
+---
 
-# 11-10-2025 (Utkarsh):- UI
-Changes in Profile Screen
+## 📁 Folder Structure
+lib/
+├── controller/ # Business logic & Firebase interactions
+├── model/ # Data models (Party, User, Event)
+├── view/ # UI screens (Login, Home, PartyDetails, etc.)
+├── widgets/ # Custom reusable widgets
+├── utils/ # Helper files (constants, formatters)
+├── main.dart # Entry point
 
-# 14-10-2025(Prathamesh):- Functionality
-functionality in dasboard page
-navigation of dashboard page
+---
 
-# 15-10-2025(Prathamesh):- Firebase
-firebase setup
+## 🧩 Installation & Setup
 
-# 17-10-2025(Prathamesh):- Firebase
-login and signup screen
-google auth
-email/password auth
+### 1. Clone the Repository
+```bash
+git clone https://gitlab.com/weekendsuperx/litup.git
+cd litup
+```
 
-# 18-10-2025(Prathamesh):- Firebase
-Shared Preferences
-create party and join party fuctionality
-firestore document for party
+### 2. Install Dependencies
+```bash
+flutter pub get
+```
 
-# 19-10-2025(Prathamesh):- Firebase
-Create party functionality added polls section
-party code screen
-dynamic group chat for every member in that respective party 
+### 3. Configure Firebase
+- Create a Firebase project at Firebase Console  
+- Enable Auth, Firestore, and Storage  
+- Add your google-services.json (Android) and GoogleService-Info.plist (iOS)  
+- Update the project with Firebase CLI if required  
 
-# 20-10-2025(Prathamesh):- Firebase
-User collection
-profile screen changes
-parties section
-Group chat added profile images and user names
+### 4. Run the App
+```bash
+flutter run
+```
 
-# 21-10-2025(Prathamesh):- Firebase
-Party details screen 
-Upcoming parties section in dashboard
+---
 
-# 22-10-2025(Prathamesh):- Gemini & itunes
-Gemini integrated
-Partybot functionality
-Shared playlist functionality
+## 🧪 Testing
 
-# 23-10-2025(Prathamesh):- Polls & Games
-Polls functionality
-Mini games
-Spin the bottle functionality 
-sqfLite
-QR code functionality
+To run tests:
+```bash
+flutter test
+```
 
-# 26-10-2025(Prathamesh):- Onboarding screen
-Onboarding screens
-Splash screen
-Party details screen
-Saved Upcoming parties section locally using sqflite
+---
 
-# 30-10-2025(Prathamesh):- Changes
-snackbar changes
-refresh on dashboard 
+## 🧠 AI Integration
+
+LitUp uses Google Generative AI (Gemini) for smart responses, recommendations, and content generation.
+
+Set your API key in a secure .env file:
+```ini
+GOOGLE_API_KEY=your_api_key_here
+```
+
+---
