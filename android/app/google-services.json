@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "254233881371",
+    "project_id": "litup-c38ac",
+    "storage_bucket": "litup-c38ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254233881371:android:81ab1bcff782c5c30181be",
+        "android_client_info": {
+          "package_name": "com.example.litup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254233881371-kmpmtmohcn5auivc7mhm1rqleal7v8ug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.litup",
+            "certificate_hash": "6f457ccb4a773e80b2ab80fa4b64e6ad557d7eeb"
+          }
+        },
+        {
+          "client_id": "254233881371-p092c75froac8quk2qidigo1gugar72e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OpY39JjKUtD3ry6_sZdjjojlrts2q34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254233881371-p092c75froac8quk2qidigo1gugar72e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
