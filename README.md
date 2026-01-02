@@ -40,6 +40,7 @@ It provides a smooth, visually rich experience with Firebase integration, smart 
 
 ## 📁 Folder Structure
 
+```text
 lib/
 ├── controller/        # Business logic & Firebase interactions
 ├── model/             # Data models (Party, User, Event)
@@ -47,6 +48,7 @@ lib/
 ├── widgets/           # Custom reusable widgets
 ├── utils/             # Helper files (constants, formatters)
 └── main.dart          # Application entry point
+
 
 
 ---
