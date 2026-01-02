@@ -39,13 +39,15 @@ It provides a smooth, visually rich experience with Firebase integration, smart 
 ---
 
 ## 📁 Folder Structure
+
 lib/
-├── controller/ # Business logic & Firebase interactions
-├── model/ # Data models (Party, User, Event)
-├── view/ # UI screens (Login, Home, PartyDetails, etc.)
-├── widgets/ # Custom reusable widgets
-├── utils/ # Helper files (constants, formatters)
-├── main.dart # Entry point
+├── controller/        # Business logic & Firebase interactions
+├── model/             # Data models (Party, User, Event)
+├── view/              # UI screens (Login, Home, PartyDetails, etc.)
+├── widgets/           # Custom reusable widgets
+├── utils/             # Helper files (constants, formatters)
+└── main.dart          # Application entry point
+
 
 ---
 
