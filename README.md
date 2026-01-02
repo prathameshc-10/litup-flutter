@@ -49,7 +49,7 @@ lib/
 ├── utils/             # Helper files (constants, formatters)
 └── main.dart          # Application entry point
 
-
+```
 
 ---
 
